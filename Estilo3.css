@@ -4,12 +4,12 @@
     font-family: Arial, sans-serif;
 }
 header{
-    background-color: #059154;
+    background-color: blue;
     padding: 15px;
     border-radius: 20px;
 }
 body {
-    background-color: #12d90bea;
+    background-color: peachpuff;
     color: #333;
 }
 nav ul{
@@ -19,7 +19,7 @@ nav ul{
     margin-top: 10px;
 }
 nav a{
-    color: #5a4f4f;
+    color:blue;
     text-decoration: none;
 }
 nav a:hover{
@@ -34,7 +34,7 @@ section{
 article{
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #f4f4f4;
+    background-color: palegreen;
 }
 footer{
     margin: 20px;

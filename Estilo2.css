@@ -9,7 +9,7 @@ header{
     border-radius: 20px;
 }
 body {
-    background-color: #e71212ea;
+    background-color: pink;
     color: #000000;
 }
 nav ul{
@@ -19,7 +19,7 @@ nav ul{
     margin-top: 10px;
 }
 nav a{
-    color: #fff;
+    color:blue;
     text-decoration: none;
 }
 nav a:hover{
@@ -34,7 +34,7 @@ section{
 article{
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #f4f4f4;
+    background-color: greenyellow;
 }
 footer{
     margin: 20px;
