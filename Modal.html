@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+    <div class="modal" id="modal">
+
+    <div class="contenido">
+
+        <span class="cerrar" id="cerrar">
+            &times;
+        </span>
+
+        <h2>¡Bienvenido!</h2>
+
+        <p>
+            Gracias por visitar mi portafolio web.
+            Aquí podrás conocer mis proyectos,
+            servicios y habilidades.
+        </p>
+
+        <button>
+            <a href="index.html" class="btn-regresar">
+             Regresar
+            </a>
+        </button>
+        
+
+    </div>
+
+    </div>
+    <script>
+
+const modal = document.getElementById("modal");
+const cerrar = document.getElementById("cerrar");
+
+/* ABRIR */
+window.onload = () => {
+    modal.classList.add("active");
+};
+
+/* CERRAR */
+cerrar.onclick = () => {
+    modal.classList.remove("active");
+};
+
+/* CERRAR FUERA */
+window.onclick = (e) => {
+
+    if(e.target == modal){
+        modal.classList.remove("active");
+    }
+
+};
+
+</script>
+</body>
+</html>
